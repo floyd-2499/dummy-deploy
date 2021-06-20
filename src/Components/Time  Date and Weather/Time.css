@@ -1,0 +1,57 @@
+.containerTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(241, 224, 224, 0.1);
+    box-shadow: 2px 2px 20px rgb(71, 194, 243);
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-size: 100% 100%;
+}
+.containerTime .time {
+    color: #1cc3ec;
+    font-size: 28px;
+    font-weight: 400;
+}
+.containerTime .date {
+    color: #32b7d8;
+    font-size: 22px;
+}
+.containerTime .day {
+    color: #29cbf3;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1100px){
+    .containerTime{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+        box-shadow:none;
+        border-radius: 20px;
+        padding: 10px 30px;
+        background-size: 100% 100%;
+        background-color: #222;
+    }
+    .containerTime .time {
+        color: #1cc3ec;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .containerTime .date {
+        color: #32b7d8;
+        font-size: 14px;
+    }
+    .containerTime .day {
+        color: #29cbf3;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}

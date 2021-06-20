@@ -1,0 +1,74 @@
+.wcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+  height: 60px;
+  background-color: rgba(241, 224, 224, 0.1);
+  box-shadow: 2px 2px 20px rgb(71, 194, 243);
+  border-radius: 20px;
+  padding: 10px 30px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px;
+}
+.sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.desc {
+  margin-right: 10px;
+  font-size: 25px;
+  color: rgb(80, 208, 240);
+  font-weight: 600;
+}
+.temperature {
+  font-size: 22px;
+  color: rgb(92, 202, 230);
+}
+.place {
+  font-size: 16px;
+  color: rgb(11, 163, 201);
+}
+
+@media screen and (max-width: 1100px) {
+
+  .wcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222;
+    box-shadow:none;
+    border-radius: 20px;
+    padding: 5px 5px;
+    background-size: 100% 100%;
+    color: white;
+    padding: 20px;
+    margin: auto;
+  }
+  .sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .desc {
+    margin: 0%;
+    font-size: 18px;
+    color: rgb(80, 208, 240);
+  }
+  .temperature {
+    font-size: 18px;
+    color: rgb(92, 202, 230);
+  }
+  .place {
+    font-size: 16px;
+    color: rgb(11, 163, 201);
+  }
+  
+
+}
